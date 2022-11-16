@@ -1,0 +1,41 @@
+<%- include('templates/inicio')%>
+
+<!--Styles-->
+<link rel="stylesheet" href="/estatico/css/iniciarSesion.css">
+
+</head>
+<body>
+    <div class="row">
+    <!--Texto principal-->
+    <center>
+        <div class="col-12">
+        <p class="h2-text"><b>T</b><b style="color: yellow;">R</b><b>E</b><b style="color: yellow;">S</b> <b>D</b><b style="color: yellow;">E</b></p>
+        </div>
+        <br />
+    <!--Imagen principal-->
+        <img class="img-session" src="/estatico/img/IniciarSesion/Logo.jpg"/>
+        <br /><br /><br />
+        <form action="categoria.html">
+            <h2 class="h2-input">CORREO</h2>
+            <input class="mb-4 col-12" type="email" name="email">
+            <h2 class="h2-input">CONTRASEÑA</h2>
+            <input class="mb-3 col-12" type="password" name="password">
+            <br /><br />
+            <div class="col-12">
+                <button class="custom-btn btn-11">ENTRAR<div class="dot"></div></button>
+            </div>
+        </form>
+
+    <br />
+    <form action="/crearSesion">
+        <div class="col-12">
+        <button class="custom-btn btn-11">CREAR SESIÓN</button>
+        </div>
+    </form>
+    </center>
+    </div>
+
+</body>
+</html>
+
+<%- include('templates/fin')%>

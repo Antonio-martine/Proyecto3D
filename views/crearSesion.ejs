@@ -1,0 +1,38 @@
+<%- include('templates/inicio')%>
+
+        <!--<link rel="stylesheet" href="css/reset.css">-->
+		<link rel="stylesheet" href="/estatico/css/crearSesion.css">
+
+</head>
+<body>
+    <div class="row">
+        <!--Texto principal-->
+        <center>
+            <div class="col-12">
+            <p class="h2-text"><b>T</b><b style="color: yellow;">R</b><b>E</b><b style="color: yellow;">S</b> <b>D</b><b style="color: yellow;">E</b></p>
+            </div>
+            <br />
+        </center>
+        <form action="IniciarSesion.html">
+        <!--Inputs-->    
+        <h2 class="h2-input">NOMBRE</h2>
+        <input class="mb-4 col-12" type="text" name="name">
+        <h2 class="h2-input">USUARIO</h2>
+        <input class="mb-3 col-12" type="text" name="user">
+        <h2 class="h2-input">CORREO ELECTRONICO</h2>
+        <input class="mb-3 col-12" type="email" name="email">
+        <h2 class="h2-input">CONTRASEÑA</h2>
+        <input class="mb-3 col-12" type="password" name="password">
+        <h2 class="h2-input">TELEFONO</h2>
+        <input class="mb-3 col-12" type="text" name="phoneNumber">
+        <br /><br /><br />
+        <center>
+            <div class="col-12">
+                <button class="btn-create">FINALIZAR<div class="dot"></div></button>
+            </div>
+        </form>
+        </center>
+    </div>
+</body>
+
+<%- include('templates/fin')%>
