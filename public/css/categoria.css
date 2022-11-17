@@ -1,0 +1,62 @@
+body{
+    background-color: #0B0853;
+}
+.navbar{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.margin{
+    margin:2em;
+}
+
+.h2-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.60em;
+    word-spacing: 0.25em;
+}
+
+.h2-input{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #62EEEE;
+}
+.categoria{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+.mas{
+    font-size: 12px;
+    text-align: right;
+}
+
+.marginContent{
+    margin: 2em;
+}
+
+.fontImg{
+    background-color: #a6b0df;
+    align-content: center;
+}
+img{
+    width: 90px;
+    height: 90px;
+}
+a{
+    color: #ee145b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+}
+
+.colorNabvar{
+    background: #000;
+}

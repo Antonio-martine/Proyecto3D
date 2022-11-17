@@ -1,0 +1,38 @@
+<%- include('templates/inicio')%>
+
+<%- include('templates/navbar')%>
+<link rel="stylesheet" href="/estatico/css/editarPerfil.css">
+</head>
+<body>
+    <div class="row margin">
+        <!--Texto principal-->
+        <center>
+        <div class="col-12 subtitulo">
+                <label>EDITAR PERFIL</label>
+        </div>
+        <br />
+        <img src="/estatico/img/EditarPerfil/UserIcon.png" alt="404Imgen" />
+        <br /><br />
+        <div class="col-12 h2-textUser">
+            <label>Usuario</label>
+        </div>
+        </center>
+        <pre></pre>
+
+    <form action="/iniciarSesion">
+            <!--Inputs-->    
+        <input class="mb-3 col-12" type="text" name="name" placeholder="Nombre">
+        <input class="mb-3 col-12" type="text" name="phoneNumber" placeholder="Telefono">
+        <input class="mb-3 col-12" type="email" name="email" placeholder="Correo eléctronico">
+        <input class="mb-3 col-12" type="password" name="password" placeholder="Contraseña">
+        <br /><br /><br />
+        <center>
+            <div class="col-12">
+                <button class="btn-create">GUARDAR<div class="dot"></div></button>
+            </div>
+    </form>
+        </center>
+    </div>
+</body>
+
+<%- include('templates/fin')%>

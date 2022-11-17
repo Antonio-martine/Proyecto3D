@@ -17,5 +17,15 @@ ruta.get('/crearSesion',(req,res)=>{
     res.render('crearSesion');
 });
 
+/*Categorias o menú principal*/
+ruta.get('/categorias',(req,res)=>{
+    res.render('categorias');
+});
+
+/*Editar Perfil*/
+ruta.get('/editarPerfil',(req,res)=>{
+    res.render('editarPerfil');
+});
+
 /*Exportacion*/
 module.exports=ruta;
